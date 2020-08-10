@@ -10,14 +10,11 @@ function getData() {
 
   fetch(`${window.origin}/result`, {
       method: "POST",
-      // credentials: "include",
       body: JSON.stringify(entry),
-      // cache: "no-cache",
       headers: new Headers({
         "content-type": "application/json"
       })
     })
-    // tego w komentarzach zauważyłem, że nie trzeba dodawać
     .then(function(response) {
       if (response.status !== 200) {
         console.log(`Looks like there was a problem. Status code: ${response.status}`);
