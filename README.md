@@ -1,3 +1,5 @@
 # WEATHER-APP
 Simple Flask web app
-![Overview](icon/overview.png)
+
+  
+![Overview](images/overview.png)
